@@ -124,6 +124,7 @@ async function createTypesFile() {
             export class ${componentName} extends SvelteComponentTyped<{
                 class?: string;
                 color?: string;
+                icon?: boolean;
                 size?: string | number;
                 strokeWidth?: string | number;
             }> {}\
