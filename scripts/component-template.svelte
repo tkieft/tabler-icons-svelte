@@ -2,11 +2,13 @@
     export let size = 24;
     export let color = "currentColor";
     export let strokeWidth = 2;
+    let classes = '';
+    export {classes as class};
 </script>
 
 <svg
     xmlns='http://www.w3.org/2000/svg'
-    class='icon icon-tabler icon-tabler-%%ORIGINAL_NAME%%'
+    class='icon icon-tabler icon-tabler-%%ORIGINAL_NAME%% {classes}'
     width={size}
     height={size}
     viewBox='0 0 24 24'
