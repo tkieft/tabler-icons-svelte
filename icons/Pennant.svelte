@@ -2,12 +2,14 @@
     export let size = 24;
     export let color = "currentColor";
     export let strokeWidth = 2;
+    export let element = undefined;
     export let icon = true;
     let classes = "";
     export { classes as class };
 </script>
 
 <svg
+    bind:this="{element}"
     xmlns="http://www.w3.org/2000/svg"
     class="{icon ? 'icon' : ''} icon-tabler icon-tabler-pennant {classes}"
     width="{size}"
