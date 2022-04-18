@@ -13,7 +13,7 @@
     "main": "index.js",
     "types": "index.d.ts",
     "scripts": {
-        "build": "node ./scripts/generate.js"
+        "build": "node ./scripts/generate.cjs"
     },
     "devDependencies": {
         "@tabler/icons": "^1.64.0",
