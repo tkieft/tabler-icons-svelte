@@ -11,6 +11,7 @@
 
 <svg
     bind:this="{element}"
+    on:click
     xmlns="http://www.w3.org/2000/svg"
     class="{icon ? 'icon' : ''} icon-tabler icon-tabler-traffic-lights {classes}"
     width="{size}"
