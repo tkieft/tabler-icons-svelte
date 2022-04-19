@@ -1,6 +1,7 @@
 <script>
     export let size = 24;
     export let color = "currentColor";
+    export let fill="none";
     export let strokeWidth = 2;
     export let element = undefined;
     export let icon = true;
@@ -17,7 +18,7 @@
     viewBox="0 0 24 24"
     stroke={color}
     stroke-width={strokeWidth}
-    fill="none"
+    fill={fill}
     stroke-linecap="round"
     stroke-linejoin="round"
 >

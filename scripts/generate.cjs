@@ -125,6 +125,7 @@ async function createTypesFile() {
                 class?: string;
                 color?: string;
                 element?: HTMLElement;
+                fill?: string;
                 icon?: boolean;
                 size?: string | number;
                 strokeWidth?: string | number;
